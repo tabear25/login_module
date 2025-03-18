@@ -29,6 +29,6 @@ def perform_login(page, email, password):
     """
 
     if not page.url.startswith(URL):
-        raise Exception("YOUR_WEBSITE_URLへのログインに失敗しました。URLが想定と異なります。")
+        raise Exception("ログインに失敗しました。")
     
-    print("YOUR_WEBSITE_URLへのログインに成功しました。")
+    print("ログインに成功しました。")
